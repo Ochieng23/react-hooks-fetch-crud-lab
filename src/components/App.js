@@ -12,7 +12,7 @@ function App() {
     <main>
       <AdminNavBar onChangePage={setPage} />
       {page === "Form" ? <QuestionForm /> : <QuestionList />}
-      <QuestionList  />
+      
     </main>
   );
 }
